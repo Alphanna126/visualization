@@ -8,7 +8,7 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 
 https://public.tableau.com/app/profile/ann.paul7865/vizzes
-python visualisation in a seperate file - assignment3.ipynb
+    python visualisation in a seperate file - assignment3.ipynb
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
     I made use of python coding in Microsoft Visual Studio and Tableau Public for this assignment.
@@ -17,23 +17,16 @@ python visualisation in a seperate file - assignment3.ipynb
     Audience likely interested in healthcare
     
     > What information or message are you trying to convey with your visualization? 
- The goal of my visualization is to highlight patterns in outbreak occurrences, identify the most common causative agents, and analyze the duration of outbreaks. By presenting this information, I aim to help decision-makers and the public track trends, identify high-risk periods, and prioritize intervention strategies.
+    The goal of my visualization is to highlight patterns in outbreak occurrences, identify the most common causative agents, and analyze the duration of outbreaks. By presenting this information, I aim to help decision-makers and the public track trends, identify high-risk periods, and prioritize intervention strategies.
 
 
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
-
     Substantive:
-
-Here , I focused on data relevance by selecting key variables (Date, Causative Agent, Outbreak Duration).Used summary statistics (e.g., outbreak counts, average duration) to provide meaningful insights.
-
-Perceptual:
-
-To make things clear. I used clear, contrasting colors to differentiate categories.
-
-Aesthetic:
-
-To make it visually good I used consistent color palettes, applied minimalistic design to avoid clutter and adjusted axis scales and data labels for better clarity.
+    Here , I focused on data relevance by selecting key variables (Date, Causative Agent, Outbreak Duration).Used summary statistics (e.g., outbreak counts, average duration) to provide meaningful insights.
+    Perceptual:
+    To make things clear. I used clear, contrasting colors to differentiate categories.Aesthetic:
+    To make it visually good I used consistent color palettes, applied minimalistic design to avoid clutter and adjusted axis scales and data labels for better clarity.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
     Here, in this case, i just chose a small dataset, ranging from year 2023-2025. The count of outbreaks would remain static and will not change. In real word coding, we can set seed in python code to ensure the results are reporoducible.
@@ -43,24 +36,24 @@ To make it visually good I used consistent color palettes, applied minimalistic 
     
     > Who are the individuals and communities who might be impacted by your visualization?  
     Public health authorities & epidemiologists → Helps them monitor trends and allocate resources effectively.
-Healthcare institutions & policymakers → Guides decision-making on outbreak prevention strategies.
-General public & media → Raises awareness about outbreaks in their communities.
-Researchers & data scientists → Offers insights for further study on disease patterns.
+    Healthcare institutions & policymakers → Guides decision-making on outbreak prevention strategies.
+    General public & media → Raises awareness about outbreaks in their communities.
+    Researchers & data scientists → Offers insights for further study on disease patterns.
 
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
     Included:
-Date columns (to analyze trends).
-Causative agents (to identify common disease-causing factors).
-Outbreak duration (to measure the impact of different outbreaks).
-Excluded:
-Institution Address (since geographic trends were not the main focus).
-ID column (not useful for analysis).
-Inactive outbreak records (to focus on ongoing and recently closed outbreaks).
+    Date columns (to analyze trends).
+    Causative agents (to identify common disease-causing factors).
+    Outbreak duration (to measure the impact of different outbreaks).
+    Excluded:
+    Institution Address (since geographic trends were not the main focus).
+    ID column (not useful for analysis).
+    Inactive outbreak records (to focus on ongoing and recently closed outbreaks).
     
     > What ‘underwater labour’ contributed to your final data visualization product?
     Data cleaning & preprocessing (handling missing values, correcting date formats).
-Merging multiple CSV files into a single dataset.
+    Merging multiple CSV files into a single dataset.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
